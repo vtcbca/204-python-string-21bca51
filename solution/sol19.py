@@ -9,8 +9,6 @@ def createList():
         s=input('Enter address of the student : ')
         student.append(l)
         address.append(s)
-        
+    for i in range(5):
+        print(' {} --> {} .'.format(student[i],address[i]))    
 createList()
-for i in range(5):
-    print(' {} --> {} .'.format(student[i],address[i]))
-    
